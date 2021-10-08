@@ -25,7 +25,7 @@ public class SpringBootRestSecurityDemoApplication {
 		return "Hello users";
 	}
 	
-	@GetMapping(path = "/admin")
+	@GetMapping(path = "/admins")
 	public String getAdmin(){
 		return "Hello admin";
 	}

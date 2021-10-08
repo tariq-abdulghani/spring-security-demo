@@ -17,7 +17,7 @@ public class SpringBootRestSecurityDemoApplication {
 	
 	@GetMapping(path = "/")
 	public String getIndex(){
-		return "Hello security";
+		return "Hello securityqq";
 	}
 	
 	@GetMapping(path = "/users")
@@ -28,5 +28,10 @@ public class SpringBootRestSecurityDemoApplication {
 	@GetMapping(path = "/admins")
 	public String getAdmin(){
 		return "Hello admin";
+	}
+	
+	@GetMapping(path = "/custom")
+	public String getCustom(){
+		return "Hello custom resource";
 	}
 }
